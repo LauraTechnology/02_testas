@@ -1,11 +1,10 @@
 //1. Duotas masyvas, console.log atspausdinti masyvo ilgį
+
 const mas1 = [12, 5, 9, 7, 5, 4];
 
 console.log(mas1);
 
-mas1.lenght = length
-
-console.log(mas1.lenght);
+console.log(mas1.length);
 
 console.log('----------');
 
@@ -14,16 +13,24 @@ console.log('----------');
 
 const mas2 = [13, '785', 92, 'labas', 522, 6984];
 
-console.log(mas2);
+for (let i = 0; i < mas2.length; i++) {
+    console.log(mas2[i], i);
+}
 
-console.log(mas2[0]);
-console.log(mas2[1]);
-console.log(mas2[2]);
-console.log(mas2[3]);
-console.log(mas2[4]);
-console.log(mas2[5]);
+// PADARYTI TOKIU 10.
 
-console.log('----------');
+ // console.log(mas2);
+
+
+//
+//console.log(mas2[0]);
+//console.log(mas2[1]);
+//console.log(mas2[2]);
+//console.log(mas2[3]);
+//console.log(mas2[4]);
+//console.log(mas2[5]);
+//
+ console.log('----------');
 
  
 //3. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
