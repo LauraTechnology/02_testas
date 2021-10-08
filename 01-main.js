@@ -38,16 +38,16 @@ for (let i = 0; i < mas2.length; i++) {
 const mas3 = [889, 52, 698, 752, 9333, 7];
 
 for (let i = 0; i < mas3.length; i++) {
-    if (i === 0) {
-        console.log(i + " yra lyginė reikšmė");
+    if (mas3[i] % 2 === 0) { 
+        console.log(mas3[i], i);
     }
-    else if (i % 2 === 0) {
-        console.log(i + " yra lyginė reikšmė");
-    }
-    else {
-        console.log("");
-    }
+   
 }
+
+// i - indeksas
+// [i] - reikšmė
+// mas3[i] - norint gauti masyvo reikšmę
+// jeigu skaicius neturi liekanos (dalinasi is 2), vadinasi jis EVEN
 
 
 
@@ -56,11 +56,29 @@ console.log('-----4-----');
 //4. Duotas masyvas, masyvą iteruoti ciklu forEach ir console.log kiekvienoje iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė prasideda raide A arba a;
 
 const mas4 = ['Agurkas', 'Bananas', 'arbūzas', 'Bebras', 'Voverė', 'Ąžuolas', 'Mažas triušis'];
+
+
+
+mas4.forEach(element => {
+    if (element.charAt(0) === 'a') {
+        console.log(element);
+    } if (element.charAt(0) === 'A') {
+        console.log(element);
+} 
+
+/* su element pasiekiamas kiekvienas masyvo narys*/
+
+
+// i  if value starts with 'A, a'
+// mas4[i]
+// forEach kiekvieno ciklo metu grazinamas kiekvienas masyvo narys
+
  
 
 console.log('-----5-----');
-//5. Duotas stringas, suskaičiuoti kiek stringe yra raidžių z
-const str1 = 'Storas zebras, bėga nuo zuulu genties nedžiotojų.';
+//5. Duotas stringas, suskaičiuoti kiek stringe yra raidžių z;
+
+const str1 = 'Storas zebras, bėga nuo zuulu genties medžiotojų.';
  
 
 
@@ -72,21 +90,18 @@ const set1 = new Set(['Labas', 'Vakaras', 'Rytas', 'Valio']);
  
 
 console.log('-----7-----');
-//7. Suprototaipinti standartinį String tipo objektą, pridedant metodą lastCharIs(), 
-// kuris grąžintų paskutinį stringo simbolį. Pademonstruoti veikimą su stringu 'Ku Ku';
+//7. Suprototaipinti standartinį String tipo objektą, pridedant metodą lastCharIs(), kuris grąžintų paskutinį stringo simbolį. Pademonstruoti veikimą su stringu 'Ku Ku';
 const str2 = 'Ku ku';
 // console.log(str2.lastCharIs()) po prototaipinimo eilutė turi veikti
  
 
 console.log('-----8-----');
-//8. Duotas objektas, kurį reikia iteruoti, kiekvienoje iteracijoje išvedant savybę
-// ir jos reikšmę
+//8. Duotas objektas, kurį reikia iteruoti, kiekvienoje iteracijoje išvedant savybę ir jos reikšmę
 const obj1 = { labas: 'vakaras', laba: 'diena', labs: 'ryts' };
  
 
 console.log('-----9-----');
-//9. Sukurti klasę Grybas. Klasėje sukurti savybė tipas. Iš klasės sukurti
-// 3 Grybo objektus, savybei tipas priskiriant "Baravykas", "Ūmedė" ir "Lepšis"
+//9. Sukurti klasę Grybas. Klasėje sukurti savybė tipas. Iš klasės sukurti 3 Grybo objektus, savybei tipas priskiriant "Baravykas", "Ūmedė" ir "Lepšis"
 
 
 
