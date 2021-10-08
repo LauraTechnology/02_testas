@@ -7,6 +7,7 @@ console.log(mas1);
 
 console.log(mas1.length);
 
+
 console.log('-----2-----');
 //2. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę;
@@ -21,7 +22,6 @@ for (let i = 0; i < mas2.length; i++) {
 
  // console.log(mas2);
 
-
 //
 //console.log(mas2[0]);
 //console.log(mas2[1]);
@@ -29,30 +29,24 @@ for (let i = 0; i < mas2.length; i++) {
 //console.log(mas2[3]);
 //console.log(mas2[4]);
 //console.log(mas2[5]);
-//
+
+
  console.log('-----3-----');
 //3. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė yra lyginė (porinė)
+
 const mas3 = [889, 52, 698, 752, 9333, 7];
 
-console.log(mas3[0]); 
-console.log(mas3[1]);
-console.log(mas3[2]);
-console.log(mas3[3]);
-console.log(mas3[4]);
-console.log(mas3[5]);
+for (let i = 0; i < mas3.length; i++) {
+    console.log(mas3[i], i);
+}
 
-let iteracija = '';
-let iteracijaIndex = 0;
 
-iteracija += mas3[iteracijaIndex++];
-
-console.log(iteracija);
 
 
 console.log('-----4-----');
-//4. Duotas masyvas, masyvą iteruoti ciklu forEach ir console.log kiekvienoje
-// iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė prasideda raide A arba a
+//4. Duotas masyvas, masyvą iteruoti ciklu forEach ir console.log kiekvienoje iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė prasideda raide A arba a;
+
 const mas4 = ['Agurkas', 'Bananas', 'arbūzas', 'Bebras', 'Voverė', 'Ąžuolas', 'Mažas triušis'];
  
 
