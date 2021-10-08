@@ -38,7 +38,15 @@ for (let i = 0; i < mas2.length; i++) {
 const mas3 = [889, 52, 698, 752, 9333, 7];
 
 for (let i = 0; i < mas3.length; i++) {
-    console.log(mas3[i], i);
+    if (i === 0) {
+        console.log(i + " yra lyginė reikšmė");
+    }
+    else if (i % 2 === 0) {
+        console.log(i + " yra lyginė reikšmė");
+    }
+    else {
+        console.log("");
+    }
 }
 
 
