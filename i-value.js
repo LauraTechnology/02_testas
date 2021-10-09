@@ -41,9 +41,17 @@ console.log('4__________');
 
 const orai = ['Geras', 'Blogas', 'Malonus', 'Nemalonus'];
 
+for (let i = 0; i < orai.length; i++) {
+    console.log(orai[i], i);
+}
+
 console.log('5__________');
 
 const spalvos = ['Raud', 'Zal', 'Gelt', 'Mel', 'Oran', 'Auks', 'Sidab'];
+
+for (i = 0; i < spalvos.length; i++) {
+    console.log();
+}
 
 console.log('6__________');
 console.log('7__________');
