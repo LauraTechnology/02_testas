@@ -59,12 +59,15 @@ const mas4 = ['Agurkas', 'Bananas', 'arbūzas', 'Bebras', 'Voverė', 'Ąžuolas'
 
 
 
-mas4.forEach(element => {
+mas4.forEach(element => )  {
     if (element.charAt(0) === 'a') {
         console.log(element);
     } if (element.charAt(0) === 'A') {
         console.log(element);
+    }
 } 
+
+
 
 /* su element pasiekiamas kiekvienas masyvo narys*/
 
@@ -76,6 +79,7 @@ mas4.forEach(element => {
  
 
 console.log('-----5-----');
+
 //5. Duotas stringas, suskaičiuoti kiek stringe yra raidžių z;
 
 const str1 = 'Storas zebras, bėga nuo zuulu genties medžiotojų.';
