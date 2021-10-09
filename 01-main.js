@@ -20,6 +20,10 @@ for (let i = 0; i < mas2.length; i++) {
 
 // PADARYTI TOKIU 10.
 
+
+
+
+
  // console.log(mas2);
 
 //
@@ -59,14 +63,14 @@ const mas4 = ['Agurkas', 'Bananas', 'arbūzas', 'Bebras', 'Voverė', 'Ąžuolas'
 
 
 
-mas4.forEach(element => )  {
-    if (element.charAt(0) === 'a') {
-        console.log(element);
-    } if (element.charAt(0) === 'A') {
-        console.log(element);
-    }
-} 
-
+//mas4.forEach(element => )  {
+//    if (element.charAt(0) === 'a') {
+//        console.log(element);
+//    } if (element.charAt(0) === 'A') {
+//        console.log(element);
+//    }
+//} 
+//
 
 
 /* su element pasiekiamas kiekvienas masyvo narys*/
