@@ -50,11 +50,49 @@ console.log('5__________');
 const spalvos = ['Raud', 'Zal', 'Gelt', 'Mel', 'Oran', 'Auks', 'Sidab'];
 
 for (i = 0; i < spalvos.length; i++) {
-    console.log();
+    console.log(spalvos[i], i);
 }
 
 console.log('6__________');
+
+const gyvenimas = ['newborn', 'baby', 'toddler', 'teen', 'young adult', 'adult', 'mature adult', 'senior'];
+
+for (let i = 0; i < gyvenimas.length; i++) {
+    console.log(gyvenimas[i], i);
+}
+
+
 console.log('7__________');
+
+const mood = ['fine', 'bad', 'happy', 'sad', 'lost', 'in trust', 'waiting'];
+
+for (let i = 0; i < mood.length; i++) {
+    console.log(mood[i], i);
+}
+
+
 console.log('8__________');
+
+const duona = ['balta', 'juoda', 'rugine', 'kvietine'];
+
+for (let i = 0; i < duona.length; i++) {
+    console.log(duona[i], i);
+}
+
+
 console.log('9__________');
+
+const tea = ['green', 'black', 'white', 'red', 'fruit'];
+
+for (let i = 0; i < tea.length; i++) {
+    console.log(tea[i], i);
+}
+
+
 console.log('10_________');
+
+const clothes = ['man', 'woman', 'boy', 'girl'];
+
+for (let i = 0; i < clothes.length; i++) {
+    console.log(clothes[i], i);
+}
